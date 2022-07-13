@@ -139,6 +139,9 @@ body {
     font-weight: normal;
 }
 
+.display {
+    display: none !important;
+}
 .product-descr,
 .product-advantages,
 .product-car {
@@ -259,6 +262,9 @@ body {
     cursor: pointer;
     color: #fff;
     transition: background var(--transition-duration) var(--transition-function);
+}
+.grey {
+    background-color: grey;
 }
 .add-cta:hover {
     background-color: var(--background-dark)

@@ -320,6 +320,10 @@ body {
     display: none;
 }
 
+/* .thumbs-img:hover {
+    transform: scale(2);
+} */
+
 @media screen and (min-width: 768px) {
     .thumbs {
         display: grid;

@@ -1,14 +1,24 @@
 // SHOW PICTURES
-
+const duckImg = [
+    canard-jaune-2-l.png,
+    canard-jaune-3-l.png,
+    canard-jaune-4-l.png,
+    canard-jaune-5-l.png
+]
 function changeImage() {
     const image = document.getElementById("pictures").getElementsByTagName("img")[0];
+    
+};
 
-
-}
+const one = document.getElementById("duck1")
+one.addEventListener("mouseover", function() {
+    one.src = "img/canard-jaune-1-l.png"
+});
 
 const btnLeft = document.getElementById("buttonLeft");
 btnLeft.addEventListener("click", function(event) {
     const img = document.getElementById("pictures").getElementsByTagName("img")[0];
+    btnLeft.forEach(click)
 
 });
 
